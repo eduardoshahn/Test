@@ -10,7 +10,7 @@ rl.question('Informe um número inteiro: ', (numero) => {
 
   while (fibonacci[fibonacci.length - 1] < numero) {
     let proximo = fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2];
-    fibonacci.push(proximo);
+    fibonacci.push(proximo); 
   }
 
   if (fibonacci.includes(numero)) {
